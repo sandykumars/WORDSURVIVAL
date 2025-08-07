@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORD SURVIVAL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WORD SURVIVAL</h1>
+        <p>Guess the word before time runs out!</p>
+        <button class="start" onclick="startGame()">Start Game</button>
+        <div id="gameArea" style="display: none;">
+            <p>Hint: <span id="hint"></span></p>
+            <div class="word-container" id="wordDisplay"></div>
+            <div class="letters" id="letters"></div>
+            <p class="message" id="message"></p>
+            <p class="attempts">Attempts Left: <span id="attempts">6</span></p>
+            <p class="timer">Time Left: <span id="timer">60</span>s</p>
+            <button class="restart" onclick="restartGame()">Restart Game</button>
+            <button class="next-level" onclick="nextLevel()">Next Level</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
