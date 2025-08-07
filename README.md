@@ -25,3 +25,6 @@ HTML
 CSS
 JavaScript
 
+THIS IS MY PROJECT HOST LINK:
+https://sandykumars.github.io/WORDSURVIVAL/
+
